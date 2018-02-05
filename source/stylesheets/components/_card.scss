@@ -1,0 +1,98 @@
+/* Your card CSS code here */
+.cards {
+	display: flex;
+	margin-top: 30px;
+}
+
+.card {
+	box-shadow: 0 0 10px rgba(1, 1, 1, 0.3);
+	flex: 1 1 auto;
+	margin: 10px;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  margin-top: -5px;
+}
+
+.card-body {
+	background-size: cover;
+	height: 300px;
+	color: #fff;
+	position: relative;
+}
+
+.card-category {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	text-transform: uppercase;
+	opacity: 0.9;
+	font-size: 1.2em;
+}
+
+.avatar {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.card-desc {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+.card-desc h3 {
+	font-size: 1.2em
+} 
+
+.card-desc p {
+	font-size: 1em
+} 
+
+.card-footer .card-date,
+.card-footer .links .fa {
+	color: rgba(10, 10, 10, 0.5);
+}
+
+.card-body .card-link {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	z-index: 2;
+	background: black;
+	opacity: 0;
+}
+
+.card-body .card-link:hover {
+	opacity: 0.1;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.card-footer p {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: lighter;
+  font-size: 12px;
+}
+.card-footer .links{
+  display: flex;
+  align-items: center;
+}
+.card-footer .links i{
+  padding: 0 10px;
+  color: #000;
+  opacity: 0.2;
+}
+.card-footer .links i:hover{
+  opacity: 0.4;
+}
+

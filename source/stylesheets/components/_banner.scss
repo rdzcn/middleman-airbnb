@@ -1,0 +1,32 @@
+.banner {
+	background-size: cover;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	height: calc(100vh - 70px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner-content a {
+	display: block;
+	margin: 50px auto;
+	width: 180px;
+	text-decoration: none;
+}
+
+.banner-content p {
+	font-size: 1.3em;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	color: #fff;
+}
+
+.banner-content h1 {
+	color: #fff;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	font-size: 2em;
+	padding: 10px 10px;
+}
