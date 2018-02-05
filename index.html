@@ -7,22 +7,149 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-3c48b980.css" rel="stylesheet" />
+    <link href="stylesheets/application-b32829e7.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
-    <div id="home">
-  <div class="home-content">
-    <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" />
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <a href="about.html">More about this template</a>
-    </p>
+    <div class="navbar-wagon">
+  <!-- Logo -->
+  
+<a href="/" class="navbar-wagon-brand">    <img src="images/logo-acc9c0ec.png" alt="Logo" />
+</a>
+
+  <!-- Right Navigation -->
+  <div class="navbar-wagon-right hidden-xs hidden-sm">
+    <a href="about.html" class="navbar-wagon-item navbar-wagon-link">About</a>
+    <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+    <a href="#" class="navbar-wagon-item navbar-wagon-link">Messages</a>
+    
+    <!-- Profile picture with dropdown list -->
+    <div class="navbar-wagon-item">
+      <div class="dropdown">
+        <img src="https://kitt.lewagon.com/placeholder/users/rdzcn" class="navbar-avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
+        <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Dashboard</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-wagon-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
+        <li><a href="#">Host</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Messagese</a></li>
+      </ul>
+    </div>
+  </div>
+</div> 
+    <div class="banner text-center" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/background-743939e3.jpg');">
+	<div class="banner-content">
+		<h1>a guide to understanding the self</h1>
+		<p><em>be like water, my friend</em></p>
+		<a href="#" class="btn-blue">transform yourself</a>
+	</div>
 </div>
 
+<div class="container">
+	<h3 class="text-center">What do you want to transform?</h3>
+	<div class="cards">
+		<!-- Code your cards  here -->
+		<div class="card">
+			<!-- design one card first -->
+			<div class="card-body" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/berlin-536bbe98.jpg');">
+				<span class="card-category">
+					BODY
+				</span>
+				<img src="images/cecile-01e1f016.png" alt="avatar" class="avatar">
+				<div class="card-desc">
+					<h3>Transform your body</h3>
+					<p>A journey into the depths of the body</p>
+				</div>
+				<a class="card-link" href="#"></a>
+			</div>
+			<div class="card-footer">
+				<p>
+					Next meeting: 3/Mar/2018
+				</p>
+				<div class="links">
+					<a href="#"><i class="fa fa-at"></i></a>
+					<a href="#"><i class="fa fa-info"></i></a>
+					<a href="#"><i class="fa fa-forward"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<!-- design one card first -->
+			<div class="card-body" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/shanghai-020138bd.jpg');">
+				<span class="card-category">
+					MIND
+				</span>
+				<img src="images/gab-5d0e8b9e.png" alt="avatar" class="avatar">
+				<div class="card-desc">
+					<h3>Transform your mind</h3>
+					<p>A journey into the depths of the mind</p>
+				</div>
+				<a class="card-link" href="#"></a>
+			</div>
+			<div class="card-footer">
+				<p>
+					Next meeting: 3/Mar/2018
+				</p>
+				<div class="links">
+					<a href="#"><i class="fa fa-at"></i></a>
+					<a href="#"><i class="fa fa-info"></i></a>
+					<a href="#"><i class="fa fa-forward"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<!-- design one card first -->
+			<div class="card-body" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('images/rio-5f490596.jpg');">
+				<span class="card-category">
+					SOUL
+				</span>
+				<img src="images/jad-f3aaaa78.png" alt="avatar" class="avatar">
+				<div class="card-desc">
+					<h3>Transform your soul</h3>
+					<p>A journey into the depths of the soul</p>
+				</div>
+				<a class="card-link" href="#"></a>
+			</div>
+			<div class="card-footer">
+				<p>
+					Next meeting: 3/Mar/2018
+				</p>
+				<div class="links">
+					<a href="#"><i class="fa fa-at"></i></a>
+					<a href="#"><i class="fa fa-info"></i></a>
+					<a href="#"><i class="fa fa-forward"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fa fa-github"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    This footer is made with <i class="fa fa-heart"></i> at Le Wagon
+  </div>
+</div>
+ 
   </body>
 </html>
